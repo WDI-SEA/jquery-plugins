@@ -4,8 +4,90 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Hello Front-End</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <!-- <link rel="stylesheet" href="/resources/demos/style.css"> -->
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+  $(function() {
+    $( "#tabs" ).tabs();
+  });
+  </script>
+    <script>
+  $(function() {
+    $( "#accordion" ).accordion();
+  });
+  </script>
 </head>
 <body>
   <h1>Hello Front-End</h1>
+
+<div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">Hotels</a></li>
+    <li><a href="#tabs-2">Flight info</a></li>
+    <li><a href="#tabs-3">Local activities</a></li>
+  </ul>
+  <div id="tabs-1">
+    <div id="accordion">
+  <h3>Bora Bora</h3>
+  <div>
+    <img class="size" src="http://www.tahiti.com/images1/thumbs/BOBNUI_Hero_Module_Thumb_600x360.jpg">
+  </div>
+  <h3>Dubai</h3>
+  <div>
+    <img class="size" src="http://www.travelandleisure.com/sites/default/files/styles/tnl_redesign_article_landing_page/public/1453920892/DUBAI-554088081-ABOVE0116.jpg?itok=dcoZnCrc">
+  </div>
+  <h3>The Phillipines</h3>
+  <div>
+    <img class="size" src="https://s-media-cache-ak0.pinimg.com/736x/bf/a2/85/bfa2853a0285efa78ebe1ee22e9b810a.jpg">
+    <ul>
+      <li>List item one</li>
+      <li>List item two</li>
+      <li>List item three</li>
+    </ul>
+  </div>
+  <h3>Seattle</h3>
+  <div>
+    <img class="size" src="http://www.excellent-romantic-vacations.com/images/romantic-seattle-vacation.jpg">
+  </div>
+</div>
+    <p>Expensive</p>
+  </div>
+  <div id="tabs-2">
+    <p>Fast!</p>
+  </div>
+  <div id="tabs-3">
+    <p>Hiking/eating/drinking</p>
+  </div>
+</div>
+
+<!-- <div id="accordion">
+  <h3>Bora Bora</h3>
+  <div>
+    <img src="http://www.tahiti.com/images1/thumbs/BOBNUI_Hero_Module_Thumb_600x360.jpg">
+  </div>
+  <h3>Dubai</h3>
+  <div>
+    <img src="http://www.travelandleisure.com/sites/default/files/styles/tnl_redesign_article_landing_page/public/1453920892/DUBAI-554088081-ABOVE0116.jpg?itok=dcoZnCrc">
+  </div>
+  <h3>The Phillipines</h3>
+  <div>
+    <img src="https://s-media-cache-ak0.pinimg.com/736x/bf/a2/85/bfa2853a0285efa78ebe1ee22e9b810a.jpg">
+    <ul>
+      <li>List item one</li>
+      <li>List item two</li>
+      <li>List item three</li>
+    </ul>
+  </div>
+  <h3>Seattle</h3>
+  <div>
+    <img src="http://www.excellent-romantic-vacations.com/images/romantic-seattle-vacation.jpg">
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script> -->
 </body>
 </html>
