@@ -3,9 +3,62 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
   <title>Hello Front-End</title>
 </head>
 <body>
-  <h1>Hello Front-End</h1>
+  <h1 class="fancy_title">Seattle Sports</h1>
+
+  <div class="parallax-window" data-parallax="scroll" data-image-src="/path/to/image.jpg"></div>
+
+  <div id="tabs">
+    <ul>
+      <li><a href="#tabs-1">Seattle Mariners</a></li>
+      <li><a href="#tabs-2">Seahawks</a></li>
+      <li><a href="#tabs-3">The Storm</a></li>
+      <li><a href="#tabs-4">The Sounders</a></li>
+    </ul>
+    <div id="tabs-1">
+      <p>The Seattle Mariners are an American professional baseball team based in Seattle, Washington. Enfranchised in 1977, the Mariners are a member of the West division of the American League in Major League Baseball.</p>
+    </div>
+    <div id="tabs-2">
+      <p>The Seattle Seahawks are a professional American football franchise based in Seattle, Washington. The Seahawks compete in the National Football League as a member club of the league's National Football Conference West division</p>
+    </div>
+    <div id="tabs-3">
+      <p>The Seattle Storm is a professional basketball team based in Seattle, Washington, playing in the Western Conference in the Women's National Basketball Association. The team was founded before the 2000 season began.</p>
+    </div>
+    <div id="tabs-4">
+      <p>Seattle Sounders FC is an American professional soccer club based in Seattle, Washington. The Sounders compete in the Western Conference of Major League Soccer</p>
+    </div>
+  </div>
+
+  <div id="accordion">
+    <h3>Seattle Mariners</h3>
+    <div class="folder">
+      <img src="http://media.cdn.shoutengine.com/cache/9c/79/9c79f1a3a602659e180dcd7482f85a2c.jpg">
+    </div>
+    <h3>Seattle Seahawks</h3>
+    <div>
+      <img src="http://img10.deviantart.net/3625/i/2012/300/2/a/seattle_seahawks_wallpaper_by_jdot2dap-d5j34oh.jpg">
+    </div>
+    <h3>Seattle Storm</h3>
+    <div>
+      <img src="http://www.hawaiianbrandsnacks.com/assets/img/news_SeattleStormGold.png">
+    </div>
+    <h3>Seattle Sounders</h3>
+    <div>
+      <img src="http://vignette1.wikia.nocookie.net/prosportsteams/images/1/11/Seattle_Sounders_FC.jpg/revision/latest?cb=20140104231657">
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <!-- <script src="/path/to/parallax.js"></script> -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="js/jquery.lettering.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+
 </body>
 </html>
