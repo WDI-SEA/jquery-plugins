@@ -24,6 +24,7 @@ Once that's complete, the rest of the workshop will be your time to experiment! 
 
 * Experiment with some other jQuery plugins that may interest you. Here are some different plugins available.
   * [parallax.js](http://pixelcog.github.io/parallax.js/)
+  * [Simple jQuery Slider](http://simpleslider.bitlabs.nl/)
   * [Lettering.js](http://letteringjs.com/)
   * [Super Simple Modal Popups](http://www.jqueryscript.net/lightbox/Super-Simple-Modal-Popups-with-jQuery-CSS3-Transitions.html)
   * [Vide](http://vodkabears.github.io/vide/)
