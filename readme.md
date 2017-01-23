@@ -25,7 +25,7 @@ Once that's complete, the rest of the workshop will be your time to experiment! 
 * Experiment with some other jQuery plugins that may interest you. Here are some different plugins available.
   * [parallax.js](http://pixelcog.github.io/parallax.js/)
   * [Lettering.js](http://letteringjs.com/)
-  * [Avgrund Modal](http://labs.voronianski.com/jquery.avgrund.js/)
+  * [Super Simple Modal Popups](http://www.jqueryscript.net/lightbox/Super-Simple-Modal-Popups-with-jQuery-CSS3-Transitions.html)
   * [Vide](http://vodkabears.github.io/vide/)
   * [UnHeap: A Tidy Repo of JavaScript plugins](http://www.unheap.com/)
 * Create your own jQuery plugin. Now that you've experimented with plugins, you'll be pleased to hear that making your own is actually pretty easy.
