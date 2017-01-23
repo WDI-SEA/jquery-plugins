@@ -28,6 +28,7 @@ Once that's complete, the rest of the workshop will be your time to experiment! 
   * [Lettering.js](http://letteringjs.com/)
   * [Super Simple Modal Popups](http://www.jqueryscript.net/lightbox/Super-Simple-Modal-Popups-with-jQuery-CSS3-Transitions.html)
   * [Vide](http://vodkabears.github.io/vide/)
+  * [BttrLazyLoading](http://bttrlazyloading.julienrenaux.fr/)
   * [UnHeap: A Tidy Repo of JavaScript plugins](http://www.unheap.com/)
 * Create your own jQuery plugin. Now that you've experimented with plugins, you'll be pleased to hear that making your own is actually pretty easy.
   * [jQuery Documentation for Custom Plugins](https://learn.jquery.com/plugins/basic-plugin-creation/)
